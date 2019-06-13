@@ -184,16 +184,6 @@ input[type=text], select, textarea {
   }
 
 
-.contact-input {
-
-}
-
-.contact-message {
-
-}
-
-
-
 
 .directory {
     position: relative;
@@ -217,15 +207,54 @@ input[type=text], select, textarea {
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
+    section {
+        width: 100%;
+    }
 
+    .imgProfile {
+        height: 300px;
+    }
+
+    .headerbox {
+        width: 100%;
+        right: 6px;
+    }
 }
 
 
 @media screen and (max-width: 768px) {
 
+    section {
+        width: 100%;
+    }
+
+    .imgProfile {
+        height: 350px;
+    }
+
+    .headerbox {
+        width: 100%;
+        right: 6px;
+    }
 }
 
 
 @media screen and (max-width: 640px) {
+
+    section {
+        width: 100%;
+    }
+
+    .imgProfile {
+        width: 100%;
+    }
+
+    header {
+        position : static;
+    }
+    .headerbox {
+        width: 100%;
+        right: 6px;
+    }
 
 }
