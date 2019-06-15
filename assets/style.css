@@ -257,4 +257,11 @@ input[type=text], select, textarea {
         right: 6px;
     }
 
+    .directory {
+        width: 85%;
+    }
+
+    img {
+        width: 100%;
+    }
 }
